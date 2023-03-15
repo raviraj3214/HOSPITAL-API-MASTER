@@ -17,6 +17,7 @@ API for the Covid hospital for doctors, patients and reports.
   - moongose.js (for database connection)
   - passport-jwt-strategy.js (for passport-jwt configuration)
 - controllers
+    - home_cont.js (contains controller related to home page) 
     - doctor_controller.js (contains controllers related to doctors)
     - patient_controller.js (contains controllers related to patients)
     - report_controller.js (contains controllers related to reports)
@@ -25,11 +26,10 @@ API for the Covid hospital for doctors, patients and reports.
   - patient.js (for creating patient database model)
   - report.js (for creating report database model)
 - routes
-  -api
-    -v1
        - doctors.js (contains routes related to doctors)
        - patients.js (contains routes related to patients)
        - reports.js (contains routes related to reports)
+       - index.js
 - index.js
 - package.json
 - package-lock.json
